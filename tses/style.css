@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .button-container {
+    display: inline-block;
+  }
+  
+  /* Image Button Styles */
+  .img-button img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  /* Hover Effect */
+  .img-button img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
